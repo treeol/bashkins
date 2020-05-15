@@ -8,6 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                     touch /root/testjenkinsfile
+                    touch /root/test2jenkinsfile
                 '''
             }
         }
